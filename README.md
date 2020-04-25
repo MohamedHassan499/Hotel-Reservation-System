@@ -8,4 +8,6 @@ The following program supports:
 
 This program was built using Java and the UI was built using JavaFX (With SceneBuilder), and the database was managed in MYSQL
 
-Images for the projects are inside "Images" folder
+Images for the projects are inside "Images" folder.
+
+In case you want to try out the projects type in both username and password: **test**
