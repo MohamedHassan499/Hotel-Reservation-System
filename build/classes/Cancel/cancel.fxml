@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="556.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Cancel.CancelController">
+   <children>
+      <ImageView fitHeight="451.0" fitWidth="675.0" layoutX="-92.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@backgound-image.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="173.0" layoutY="32.0" text="Cancel Booking" textFill="#f49d39">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="136.0" text="Guest" textFill="#14100c">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="218.0" text="Room" textFill="#14100c">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="345.0" layoutY="293.0" mnemonicParsing="false" onAction="#cancelBtn" style="-fx-background-color: #f49d39;" text="Cancel booking" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <TextField fx:id="room" layoutX="161.0" layoutY="219.0" onAction="#cancelText" />
+      <ComboBox fx:id="guest" layoutX="163.0" layoutY="136.0" onAction="#guestCombo" prefHeight="31.0" prefWidth="182.0" />
+   </children>
+</AnchorPane>

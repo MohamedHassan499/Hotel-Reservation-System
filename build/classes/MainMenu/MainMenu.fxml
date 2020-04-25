@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="718.0" prefWidth="972.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainMenu.MainMenuController">
+   <children>
+      <ImageView fitHeight="758.0" fitWidth="1261.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@backgound-image.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="171.0" fitWidth="179.0" layoutX="123.0" layoutY="103.0">
+         <image>
+            <Image url="@checkin.jpg" />
+         </image>
+      </ImageView>
+      <ImageView accessibleRole="HYPERLINK" cache="true" fitHeight="171.0" fitWidth="179.0" layoutX="397.0" layoutY="104.0">
+         <image>
+            <Image url="@chechout.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="171.0" fitWidth="179.0" layoutX="661.0" layoutY="103.0">
+         <image>
+            <Image url="@roombooking.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="171.0" fitWidth="179.0" layoutX="661.0" layoutY="359.0">
+         <image>
+            <Image url="@cancelbooking.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="171.0" fitWidth="185.0" layoutX="120.0" layoutY="359.0">
+         <image>
+            <Image url="@s1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="171.0" fitWidth="179.0" layoutX="398.0" layoutY="359.0">
+         <image>
+            <Image url="@displaydata.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="80.0" layoutX="856.0" layoutY="14.0">
+         <image>
+            <Image url="@login.png" />
+         </image>
+      </ImageView>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="welcome" fill="#f49d39" layoutX="120.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="239.79998779296875">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Text>
+      <Hyperlink fx:id="checkin" layoutX="143.0" layoutY="276.0" onAction="#checkinbtn" prefHeight="57.0" prefWidth="139.0" text="Check in" textFill="#363472">
+         <font>
+            <Font name="System Italic" size="30.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="409.0" layoutY="275.0" onAction="#checkout" prefHeight="60.0" prefWidth="179.0" style="-fx-text-fill: #363472;" text="Check out">
+         <font>
+            <Font name="System Italic" size="30.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="648.0" layoutY="276.0" onAction="#roomBookingBtn" text="Room booking" textFill="#363472">
+         <font>
+            <Font name="System Italic" size="30.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="99.0" layoutY="538.0" onAction="#roomsData" text="Available rooms" textFill="#363472">
+         <font>
+            <Font name="System Italic" size="30.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="409.0" layoutY="545.0" onAction="#guestData" text="guest data" textFill="#363472">
+         <font>
+            <Font name="System Italic" size="30.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="695.0" layoutY="545.0" onAction="#guestBtn" prefHeight="57.0" prefWidth="206.0" text="Cancel" textFill="#363472">
+         <font>
+            <Font name="System Italic" size="30.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="856.0" layoutY="73.0" onAction="#logoutbtn" prefHeight="42.0" prefWidth="90.0" text="Log Out" textFill="#f49d39">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>
